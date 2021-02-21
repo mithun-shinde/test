@@ -4,9 +4,11 @@ using namespace std;
 
 int main()
 {
-    int lastNum{200};
+    int lastNum{0};
     int num{1}, prevNum{0}, nextNum{0};
     
+    cout << "Input Range : ";
+    cin >> lastNum;
     while (1)
     {
         nextNum = num + prevNum;
