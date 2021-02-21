@@ -5,8 +5,11 @@ using namespace std;
 int main()
 {
     int lastNum{200};
-    int num{1}, prevNum{0}, nextNum{0};
+    int num{1};
+    int prevNum{0};
+    int nextNum{0};
     
+    cout << "0 1 ";
     while (1)
     {
         nextNum = num + prevNum;
@@ -18,6 +21,7 @@ int main()
         prevNum = num;
         num = nextNum;
     }
+    return 0;
 }
 
 
