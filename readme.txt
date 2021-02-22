@@ -1,1 +1,1 @@
-Its a fibonacci series printing project.
+Its a C++ program to print fibonacci series.
