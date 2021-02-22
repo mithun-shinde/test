@@ -9,7 +9,7 @@ int main()
     int prevNum{0};
     int nextNum{0};
     
-    cout << "Input Range : ";
+    cout << "Input Last Number : ";
     cin >> lastNum;
         
     cout << "0 1 ";
